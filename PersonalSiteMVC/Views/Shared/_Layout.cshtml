@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>W. Michael Jaggers</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full-Stack Front-End Web Developer">
+    <meta name="author" content="W. Michael Jaggers">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome JS -->
+    <script defer src="~/Content/assets/fontawesome/js/all.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="~/Content/assets/plugins/flickity/flickity.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="~/Content/assets/css/theme.css">
+
+    <!-- Custom CSS Overrides -->
+    <link rel="stylesheet" href="~/Content/assets/css/custom.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="top-bar theme-bg-primary-darken">
+
+            <div class="container-fluid">
+
+                <nav class="navbar navbar-expand-lg navbar-dark position-relative">
+
+
+                    <ul class="social-list list-inline mb-0">
+                        <li class="list-inline-item"><a class="text-white" href="https://twitter.com/jaggermeister"><i class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="text-white" href="https://www.linkedin.com/in/michaeljaggers"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="text-white" href="https://github.com/michaeljaggers"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="text-white" href="https://codepen.io/jaggers"><i class="fab fa-codepen fa-fw"></i></a></li>
+                    </ul><!--//social-list-->
+
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse text-uppercase" id="navigation">
+                        <ul class="navbar-nav ml-lg-auto">
+                            <li class="nav-item active mr-lg-3">
+                                <a class="nav-link" href="@Url.Action("Index", "Home")">About <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item mr-lg-3">
+                                <a class="nav-link" href="@Url.Action("Projects", "Home")">Projects</a>
+                            </li>
+                            <li class="nav-item mr-lg-3">
+                                <a class="nav-link" href="@Url.Action("Resume", "Home")">Resume</a>
+                            </li>
+                            <li class="nav-item mr-lg-3">
+                                <a class="nav-link" href="@Url.Action("Contact", "Home")">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown mr-0">
+                                <a class="nav-link dropdown-toggle" href="#" id="navigationLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right text-capitalize shadow-lg" aria-labelledby="navigationLink">
+                                    <a class="dropdown-item" href="@Url.Action("Links", "Home")">Links</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <span id="slide-line"></span>
+                    </div>
+                </nav>
+            </div><!--//container-->
+        </div><!--//top-bar-->
+        @RenderBody()
+    <footer class="footer text-light text-center py-3">
+        <small class="copyright">Made with&nbsp;&nbsp;&#10084;</small>
+    </footer>
+    <!-- Javascript -->
+    <script type="text/javascript" src="~/Content/assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/popper.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~Content/assets/plugins/back-to-top.js"></script>
+    <!-- Page Specific JS -->
+    <script type="text/javascript" src="~/Content/assets/plugins/flickity/flickity.pkgd.min.js"></script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="~/Content/assets/js/main.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/flickity-custom.js"></script>
+</body>
+</html>
+

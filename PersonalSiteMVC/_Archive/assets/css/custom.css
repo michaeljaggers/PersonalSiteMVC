@@ -1,0 +1,213 @@
+﻿/* global styles*/
+
+.font-weight-bold {
+    font-weight: 600 !important;
+}
+
+a {
+    color: #676767;
+    text-decoration: none;
+    border-bottom: 1px dotted #676767;
+    transition: all ease-in-out .500s;
+}
+
+a:hover,
+a:active {
+    color: #525E90;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color: #525E90;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+#topcontrol {
+    border-radius: 100px;
+    bottom: 10px !important;
+    right: 10px !important;
+    background: rgba(40, 40, 40, 0.4);
+}
+
+#topcontrol:hover,
+#topcontrol:active {
+    background: rgba(40, 40, 40, 0.8);
+}
+
+
+/* header */
+
+header .top-bar.theme-bg-primary-darken {
+    background-color: #525E90;
+}
+
+/* social header */
+
+.social-list a {
+    padding-top: 6px;
+}
+
+/* navigation links*/
+
+a.nav-link {
+    border-bottom: none;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    border: none;
+    text-decoration: none;
+}
+
+/* header links */
+
+.link-on-bg,
+a.link-on-bg {
+    color: #FFF;
+    border-bottom-color: #FFF;
+}
+
+.link-on-bg:hover,
+a.link-on-bg:hover {
+    color: #FFF;
+    border-bottom-color: #FFF;
+}
+
+/* index skills section */
+
+.skills-cat {
+    font-weight: 600;
+}
+
+/* other index section links */
+
+a.logo-link,
+.testimonials a {
+    border: none;
+}
+
+.testimonials a:hover,
+.testimonials a:active {
+    border: none;
+}
+
+/* project cards */
+
+.project-cards .card-img-overlay.overlay-content {
+    background: rgba(40, 40, 40, 0.85);
+}
+
+.project-cards .card-title a {
+    border-bottom: none;
+}
+
+.project-cards .card-title a:hover,
+.project-cards .card-title a:active {
+    border-bottom: none;
+}
+
+.badge.badge-pill {
+    padding-top: 0.4em;
+}
+
+.filters .type {
+    border-radius: 0;
+}
+
+/* page headings */
+.page-heading {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+/* contact.html */
+
+/* contact page social icon links */
+.social-list-color a:hover,
+.social-list-color a:active {
+    color: #FFF;
+}
+
+
+/* resume.html */
+
+.download-resume {
+    display: none;
+}
+
+.resume-header a {
+    border: none;
+}
+
+.resume-header a:hover,
+.resume-header a:active {
+    border-bottom: none;
+}
+
+.resume-header .name {
+    font-weight: 700;
+}
+
+.resume-timeline-item:before {
+    border-color: #525E90;
+}
+
+.resume-company-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.progress {
+    border-radius: 0;
+}
+
+.theme-progress-bar-dark {
+    background-color: #525E90;
+}
+
+
+.badge-light {
+    border: 1px solid #E8E8E8;
+    border-radius: 1px;
+}
+
+.resume-position-time,
+.resume-degree-time {
+    color: #AAA;
+}
+
+/* footer */
+.footer {
+    background-color: #525E90;
+}
+
+
+/* media queries */
+/* navigation */
+@media screen and (max-width: 991px) {
+    #navigation {
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+
+    #navigation .dropdown-menu {
+        border: 1px solid #46507B;
+    }
+
+    #navigation .dropdown-menu a {
+        font-size: 1rem;
+    }
+
+    #navigation .dropdown-menu a:hover,
+    #navigation .dropdown-menu a:active {
+        background: none;
+    }
+}
