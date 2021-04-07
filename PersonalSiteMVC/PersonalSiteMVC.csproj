@@ -4507,6 +4507,7 @@
     <Content Include="_Archive\scss\theme\_responsive.scss" />
     <Content Include="_Archive\scss\theme\_resume.scss" />
     <Content Include="_Archive\scss\theme\_talks.scss" />
+    <Content Include="Views\Home\Projects.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

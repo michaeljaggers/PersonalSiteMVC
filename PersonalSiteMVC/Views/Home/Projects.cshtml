@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "Projects";
+}
+
+    <div class="header-intro theme-bg-primary text-white py-5">
+        <div class="container">
+            <h2 class="page-heading mb-3">@ViewBag.Title</h2>
+            <div class="page-heading-tagline">Available via direct-link when possible.<br />Filter by technology.</div>
+
+        </div><!--//container-->
+    </div><!--//header-intro-->
+</header><!--//header-->
+<section class="section pt-5">
+    <div class="container">
+        <div class="text-center">
+            <ul id="filters" class="filters mb-5 mx-auto pl-0">
+                <li class="type active" data-filter="*">All</li>
+                <li class="type" data-filter=".csharp">C#</li>
+                <li class="type" data-filter=".react">React</li>
+                <li class="type" data-filter=".javascript">JavaScript</li>
+                <li class="type" data-filter=".my-sql">MySQL</li>
+                <li class="type" data-filter=".html">HTML</li>
+                <li class="type" data-filter=".css">CSS</li>
+            </ul><!--//filters-->
+        </div>
+        <div class="project-cards row mb-5 isotope">
+            <div class="isotope-item col-12 col-lg-4 html css javascript">
+                <div class="card rounded-0 border-0 shadow-sm mb-5">
+                    <div class="card-img-container position-relative">
+                        <img class="card-img-top rounded-0" src="~/Content/assets/images/projects/Fed1StudioProject.jpg" alt="FED1 Studio Project">
+                        <div class="card-img-overlay overlay-logo text-center">
+                            <div class="project-logo"><img class="img-fluid w-50" src="~/Content/assets/images/logos/centriq-white.png"></div>
+                        </div>
+                        <a class="card-img-overlay overlay-content text-left p-lg-4" href="//kcdi.michaeljaggers.net" target="_blank">
+                            <h5 class="card-title font-weight-bold">Centriq Training</h5>
+                            <p class="card-text">The FED1 Project consisted of creating an entire website with hand-crafted HTML, CSS, and JavaScript depicting a ficticious business presence.</p>
+                        </a>
+                    </div>
+                    <div class="card-body pb-0">
+                        <h4 class="card-title text-truncate text-center mb-0"><a href="//kcdi.michaeljaggers.net" target="_blank">FED1 Studio Project</a></h4>
+                    </div>
+                    <div class="card-footer border-0 text-center bg-white pb-4">
+                        <ul class="list-inline mb-0 mx-auto">
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML5</span></li>
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">CSS3</span></li>
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">JavaScript</span></li>
+                        </ul>
+                    </div>
+                </div><!--//card-->
+            </div><!--//isotope-item-->
+            <div class="isotope-item col-12 col-lg-4 csharp">
+                <div class="card rounded-0 border-0 shadow-sm mb-5">
+                    <div class="card-img-container position-relative">
+                        <img class="card-img-top rounded-0" src="~/Content/assets/images/projects/DungeonApplication.jpg" alt="Dungeon Application">
+                        <div class="card-img-overlay overlay-logo text-center">
+                            <div class="project-logo"><img class="img-fluid w-50" src="~/Content/assets/images/logos/centriq-white.png"></div>
+                        </div>
+                        <a class="card-img-overlay overlay-content text-left p-lg-4" href="https://github.com/michaeljaggers/DungeonApplication" target="_blank">
+                            <h5 class="card-title font-weight-bold">Centriq Training</h5>
+                            <p class="card-text">The Dungeon Application is a console-based app written in C# offering interactive choices and consequences battling a variety of foes.</p>
+                        </a>
+                    </div>
+                    <div class="card-body pb-0">
+                        <h4 class="card-title text-truncate text-center mb-0"><a href="https://github.com/michaeljaggers/DungeonApplication" target="_blank">Dungeon Application</a></h4>
+                    </div>
+                    <div class="card-footer border-0 text-center bg-white pb-4">
+                        <ul class="list-inline mb-0 mx-auto">
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">C#</span></li>
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">.NET Framework</span></li>
+                        </ul>
+                    </div>
+                </div><!--//card-->
+            </div><!--//isotope-item-->
+            <div class="isotope-item col-12 col-lg-4 react python-django">
+                <div class="card rounded-0 border-0 shadow-sm mb-5">
+                    <div class="card-img-container position-relative">
+                        <img class="card-img-top rounded-0" src="~/Content/assets/images/projects/project-3-thumb.jpg" alt="">
+                        <div class="card-img-overlay overlay-logo text-center">
+                            <div class="project-logo"><img class="img-fluid w-50" src="~/Content/assets/images/logos/logo-3-inverse.svg"></div>
+                        </div>
+                        <a class="card-img-overlay overlay-content text-left p-lg-4" href="project.html">
+                            <h5 class="card-title font-weight-bold">Client: Airbnb</h5>
+                            <p class="card-text">Project summary goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod...</p>
+                        </a>
+                    </div>
+                    <div class="card-body pb-0">
+                        <h4 class="card-title text-truncate text-center mb-0"><a href="project.html">Mobile app development</a></h4>
+                    </div>
+                    <div class="card-footer border-0 text-center bg-white pb-4">
+                        <ul class="list-inline mb-0 mx-auto">
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">React</span></li>
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Python</span></li>
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">MySQL</span></li>
+                            <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Webpack</span></li>
+                        </ul>
+                    </div>
+                </div><!--//card-->
+            </div><!--//isotope-item-->
+        </div><!--//row-->
+    </div><!--//container-->
+</section><!--//section-->
+<section class="section-cta py-5 bg-primary text-white">
+    <div class="container">
+        <div class="text-center">
+            <img class="profile-small d-inline-block mx-auto rounded-circle mb-2" src="~/Content/assets/images/profile.jpg" alt="">
+        </div>
+        <h3 class="section-title font-weight-bold text-center mb-2">Interested in getting to know me?</h3>
+        <div class="section-intro mx-auto text-center mb-3">
+            Looking for an experienced full-stack developer to build your web-app or ship your software product?&nbsp;&nbsp;To start a conversation, just drop me a line at <a class="link-on-bg" href="mailto:michael.jaggers@gmail.com">michael.jaggers@gmail.com</a> or submit a message <a class="link-on-bg" href="@Url.Action("Contact", "Home")">on my contact page</a>.
+        </div>
+        <div class="text-center">
+            <a class="theme-btn-on-bg btn" href=""@Url.Action("Contact", "Home")">Let's Chat</a>
+        </div>
+    </div><!--//container-->
+</section>
