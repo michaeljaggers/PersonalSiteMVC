@@ -1,5 +1,12 @@
 $(document).ready(function() {
 	
+    /* ====== Highlight current nav page ===== */
+    $('.navbar-nav > li').each(function () {
+        if ($(this).find('a').attr('href') == window.location.pathname) {
+            $(this).addClass('active');
+        }
+    });
+
 	/* ======= Sliding menu underline ====== */
 	// Menu has active item
 	 

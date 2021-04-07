@@ -2,23 +2,23 @@
     ViewBag.Title = "About";
 }
 
-        <div class="header-intro theme-bg-primary text-white py-5">
-            <div class="container">
-                <div class="profile-teaser media flex-column flex-md-row">
-                    <img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="~/Content/assets/images/profile.jpg" alt="">
-                    <div class="media-body text-center text-md-left">
-                        <div class="lead">Hello, my name is</div>
-                        <h2 class="mt-0 display-4 font-weight-bold">Michael Jaggers</h2>
-                        <div class="bio mb-3">
-                            I'm a full-stack developer specialized in front-end.&nbsp;&nbsp;I share thoughts, links, and quotes on <a class="link-on-bg" href="https://michaeljaggers.com" target="_blank">Tumblr</a> and regularly take advantage of opportunities to learn something new.&nbsp;&nbsp;Want to know how I may help your project?&nbsp;&nbsp;Check out my project <a class="link-on-bg" href="@Url.Action("Projects", "Home")">case studies</a> and <a class="link-on-bg" href="@Url.Action("Resume", "Home")">resume</a>.
-                        </div><!--//bio-->
-                        <a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="@Url.Action("Contact", "Home")">Contact Me</a>
+<div class="header-intro theme-bg-primary text-white py-5">
+    <div class="container">
+        <div class="profile-teaser media flex-column flex-md-row">
+            <img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="~/Content/assets/images/profile.jpg" alt="">
+            <div class="media-body text-center text-md-left">
+                <div class="lead">Hello, my name is</div>
+                <h2 class="mt-0 display-4 font-weight-bold">Michael Jaggers</h2>
+                <div class="bio mb-3">
+                    I'm a full-stack developer specialized in front-end.&nbsp;&nbsp;I share thoughts, links, and quotes on <a class="link-on-bg" href="https://michaeljaggers.com" target="_blank">Tumblr</a> and regularly take advantage of opportunities to learn something new.&nbsp;&nbsp;Want to know how I may help your project?&nbsp;&nbsp;Check out my project <a class="link-on-bg" href="@Url.Action("Projects", "Home")">case studies</a> and <a class="link-on-bg" href="@Url.Action("Resume", "Home")">resume</a>.
+                </div><!--//bio-->
+                <a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="@Url.Action("Contact", "Home")">Contact Me</a>
 
-                    </div><!--//media-body-->
-                </div><!--//profile-teaser-->
+            </div><!--//media-body-->
+        </div><!--//profile-teaser-->
 
-            </div><!--//container-->
-        </div><!--//header-intro-->
+    </div><!--//container-->
+</div><!--//header-intro-->
 </header><!-- //header -->
 <section class="skills-section section py-5">
     <div class="container">
@@ -238,3 +238,9 @@
         </div>
     </div><!--//container-->
 </section>
+
+@section scripts {
+    <!-- Page Specific JS - Index -->
+    <script type="text/javascript" src="~/Content/assets/plugins/flickity/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/flickity-custom.js"></script>
+}

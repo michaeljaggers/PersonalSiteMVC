@@ -1,17 +1,60 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+    <div class="header-intro theme-bg-primary text-white py-5">
+        <div class="container">
+            <h2 class="page-heading mb-0">@ViewBag.title</h2>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+        </div><!--//container-->
+    </div><!--//header-intro-->
+</header><!--//header-->
+<section class="section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="contact-intro col-lg-8 mx-lg-auto mb-5 text-center">
+                <img class="profile-small d-inline-block mx-auto rounded-circle mb-3" src="~/Content/assets/images/profile.jpg" alt="">
+                <div class="speech-bubble bg-white p-4 p-lg-5 shadow-sm">
+                    <p class="text-center mb-3">I'm not currently taking on freelance work.<br /><br />If you would like to get in touch with me please use the form below to get in touch.&nbsp;&nbsp;Interested in how I work and what I can offer?&nbsp;&nbsp;Check out my <a href="@Url.Action("Projects", "Home")">project case studies</a> and <a href="@Url.Action("Resume", "Home")">resume</a>.</p>
+                    <br />
+                    <h6 class="font-weight-bold text-center mb-3">You can also find me elsewhere on the net...</h6>
+
+                    <ul class="social-list-color list-inline mb-0">
+                        <li class="list-inline-item mb-3"><a class="twitter" href="https://twitter.com/jaggermeister"><i class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item mb-3"><a class="linkedin" href="https://www.linkedin.com/in/michaeljaggers"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                        <li class="list-inline-item mb-3"><a class="github" href="https://github.com/michaeljaggers"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                        <li class="list-inline-item mb-3"><a class="codepen" href="https://codepen.io/jaggers"><i class="fab fa-codepen fa-fw"></i></a></li>
+                    </ul><!--//social-list-->
+                </div>
+
+            </div><!--//contact-intro-->
+            <form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" action="">
+                <h3 class="text-center mb-3">Get In Touch</h3>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label class="sr-only" for="cname">Name</label>
+                        <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" aria-required="true">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="sr-only" for="cemail">Email</label>
+                        <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" aria-required="true">
+                    </div>
+                    <div class="form-group col-12">
+                        <label class="sr-only" for="cmessage">Your message</label>
+                        <textarea class="form-control" id="cmessage" name="message" placeholder="Message" rows="10" required="" aria-required="true"></textarea>
+                    </div>
+                    <div class="form-group col-12">
+                        <button type="submit" class="btn btn-block btn-primary py-2">Send</button>
+                    </div>
+                </div><!--//form-row-->
+            </form>
+
+        </div><!--//row-->
+    </div><!--//container-->
+</section><!--//section-->
+
+@section scripts {
+    <!--Page Specific JS - Contact -->
+    <script type="text/javascript" src="~/Content/assets/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/form.js"></script>
+}

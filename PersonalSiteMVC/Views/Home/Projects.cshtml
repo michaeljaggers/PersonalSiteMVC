@@ -1,15 +1,14 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Projects";
 }
 
-    <div class="header-intro theme-bg-primary text-white py-5">
-        <div class="container">
-            <h2 class="page-heading mb-3">@ViewBag.Title</h2>
-            <div class="page-heading-tagline">Available via direct-link when possible.<br />Filter by technology.</div>
+<div class="header-intro theme-bg-primary text-white py-5">
+    <div class="container">
+        <h2 class="page-heading mb-3">@ViewBag.Title</h2>
+        <div class="page-heading-tagline">Available via direct-link when possible.<br />Filter by technology.</div>
 
-        </div><!--//container-->
-    </div><!--//header-intro-->
+    </div><!--//container-->
+</div><!--//header-intro-->
 </header><!--//header-->
 <section class="section pt-5">
     <div class="container">
@@ -110,7 +109,14 @@
             Looking for an experienced full-stack developer to build your web-app or ship your software product?&nbsp;&nbsp;To start a conversation, just drop me a line at <a class="link-on-bg" href="mailto:michael.jaggers@gmail.com">michael.jaggers@gmail.com</a> or submit a message <a class="link-on-bg" href="@Url.Action("Contact", "Home")">on my contact page</a>.
         </div>
         <div class="text-center">
-            <a class="theme-btn-on-bg btn" href=""@Url.Action("Contact", "Home")">Let's Chat</a>
+            <a class="theme-btn-on-bg btn" href="@Url.Action("Contact", "Home")">Let's Chat</a>
         </div>
     </div><!--//container-->
 </section>
+
+@section scripts {
+    <!--Page Specific JS - Projects -->
+    <script type="text/javascript" src="~/Content/assets/plugins/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/plugins/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/isotope-custom.js"></script>
+}
