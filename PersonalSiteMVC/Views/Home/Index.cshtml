@@ -1,7 +1,25 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "About";
 }
 
+        <div class="header-intro theme-bg-primary text-white py-5">
+            <div class="container">
+                <div class="profile-teaser media flex-column flex-md-row">
+                    <img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="~/Content/assets/images/profile.jpg" alt="">
+                    <div class="media-body text-center text-md-left">
+                        <div class="lead">Hello, my name is</div>
+                        <h2 class="mt-0 display-4 font-weight-bold">Michael Jaggers</h2>
+                        <div class="bio mb-3">
+                            I'm a full-stack developer specialized in front-end.&nbsp;&nbsp;I share thoughts, links, and quotes on <a class="link-on-bg" href="https://michaeljaggers.com" target="_blank">Tumblr</a> and regularly take advantage of opportunities to learn something new.&nbsp;&nbsp;Want to know how I may help your project?&nbsp;&nbsp;Check out my project <a class="link-on-bg" href="@Url.Action("Projects", "Home")">case studies</a> and <a class="link-on-bg" href="@Url.Action("Resume", "Home")">resume</a>.
+                        </div><!--//bio-->
+                        <a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="@Url.Action("Contact", "Home")">Contact Me</a>
+
+                    </div><!--//media-body-->
+                </div><!--//profile-teaser-->
+
+            </div><!--//container-->
+        </div><!--//header-intro-->
+</header><!-- //header -->
 <section class="skills-section section py-5">
     <div class="container">
         <h3 class="section-title font-weight-bold text-center mb-3">Skills Overview</h3>
@@ -16,7 +34,7 @@
                             <img class="skills-icon" src="~/Content/assets/images/frontend-icon.svg">
                         </div>
                         <ul class="skills-list list-unstyled text-secondary">
-                            <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>React/Express</li>
+                            <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>React</li>
                             <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Javascript</li>
                             <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Webpack/Gulp/Grunt</li>
                             <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>HTML/CSS/SASS</li>
@@ -63,12 +81,12 @@
     <!--<div class="container">
         <h3 class="section-title font-weight-bold text-center mb-5">Great clients I've worked with</h3>
         <div class="logos row mb-5">
-            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-1.svg"></a></div>
-            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-2.svg"></a></div>
-            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-3.svg"></a></div>
-            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-4.svg"></a></div>
-            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-5.svg"></a></div>
-            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-6.svg"></a></div>
+            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="~/Content/assets/images/logos/logo-1.svg"></a></div>
+            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="~/Content/assets/images/logos/logo-2.svg"></a></div>
+            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="~/Content/assets/images/logos/logo-3.svg"></a></div>
+            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="~/Content/assets/images/logos/logo-4.svg"></a></div>
+            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="~/Content/assets/images/logos/logo-5.svg"></a></div>
+            <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="~/Content/assets/images/logos/logo-6.svg"></a></div>
         </div>
     </div>-->
 
@@ -113,20 +131,12 @@
                     </blockquote>
                 </div>
             </div><!--//testimonial-item-->
-
-
         </div><!--//container-fluid-->
-
-
     </div><!--//testimonials-->
-
-
 </section>
-
 <section class="section-featured-projects py-5">
     <div class="container">
         <h3 class="section-title font-weight-bold text-center mb-5">Featured Projects</h3>
-
         <div class="project-cards row mb-5">
             <div class="col-12 col-lg-4">
                 <div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
@@ -143,7 +153,6 @@
                     <div class="card-body pb-0">
                         <h4 class="card-title text-truncate text-center mb-0"><a href="//kcdi.michaeljaggers.net" target="_blank">FED1 Studio Project</a></h4>
                     </div>
-
                     <div class="card-footer border-0 text-center bg-white pb-4">
                         <ul class="list-inline mb-0 mx-auto">
                             <li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML5</span></li>
@@ -168,7 +177,6 @@
                     <div class="card-body pb-0">
                         <h4 class="card-title text-truncate text-center mb-0"><a href="https://github.com/michaeljaggers/DungeonApplication" target="_blank">Dungeon Application</a></h4>
                     </div>
-
                     <div class="card-footer border-0 text-center bg-white pb-4">
                         <ul class="list-inline mb-0 mx-auto">
                             <li class="list-inline-item"><span class="badge badge-secondary badge-pill">C#</span></li>
@@ -192,7 +200,6 @@
                     <div class="card-body pb-0">
                         <h4 class="card-title text-truncate text-center mb-0"><a href="@Url.Action("Project", "Home")">Project Name</a></h4>
                     </div>
-
                     <div class="card-footer border-0 text-center bg-white pb-4">
                         <ul class="list-inline mb-0 mx-auto">
                             <li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML/CSS</span></li>
@@ -202,15 +209,12 @@
                     </div>
                 </div><!--//card-->
             </div>
-
         </div><!--//row-->
         <div class="text-center">
             <a class="btn btn-primary" href="@Url.Action("Projects", "Home")">View All Projects</a>
         </div>
     </div><!--///container-->
-
 </section>
-
 <section class="section-press py-5 bg-white">
     <div class="container">
         <h3 class="section-title font-weight-bold text-center mb-5">Proudly Worked For</h3>
@@ -220,7 +224,6 @@
         </div>
     </div><!--//container-->
 </section>
-
 <section class="section-cta py-5 bg-primary text-white">
     <div class="container">
         <div class="text-center">

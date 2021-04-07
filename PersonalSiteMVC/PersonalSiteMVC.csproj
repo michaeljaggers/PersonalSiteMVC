@@ -129,6 +129,7 @@
   <ItemGroup>
     <Content Include="Content\assets\css\custom.css" />
     <Content Include="Content\assets\css\theme.css" />
+    <Content Include="Content\assets\favicon.ico" />
     <Content Include="Content\assets\fontawesome\attribution.js" />
     <Content Include="Content\assets\fontawesome\css\all.css" />
     <Content Include="Content\assets\fontawesome\css\all.min.css" />
