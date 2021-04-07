@@ -2,12 +2,12 @@
     ViewBag.Title = "Contact";
 }
 
-    <div class="header-intro theme-bg-primary text-white py-5">
-        <div class="container">
-            <h2 class="page-heading mb-0">@ViewBag.title</h2>
+<div class="header-intro theme-bg-primary text-white py-5">
+    <div class="container">
+        <h2 class="page-heading mb-0">@ViewBag.title</h2>
 
-        </div><!--//container-->
-    </div><!--//header-intro-->
+    </div><!--//container-->
+</div><!--//header-intro-->
 </header><!--//header-->
 <section class="section py-5">
     <div class="container">
@@ -55,6 +55,5 @@
 
 @section scripts {
     <!--Page Specific JS - Contact -->
-    <script type="text/javascript" src="~/Content/assets/plugins/jquery-validation/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="~/Content/assets/js/form.js"></script>
+    @Scripts.Render("~/bundles/contact")
 }
