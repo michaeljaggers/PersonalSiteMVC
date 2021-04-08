@@ -1,4 +1,6 @@
-﻿@{
+﻿@model PersonalSiteMVC.Models.ContactViewModel
+
+@{
     ViewBag.Title = "Contact";
 }
 
@@ -28,32 +30,14 @@
                 </div>
 
             </div><!--//contact-intro-->
-            <form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" action="">
-                <h3 class="text-center mb-3">Get In Touch</h3>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label class="sr-only" for="cname">Name</label>
-                        <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" aria-required="true">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label class="sr-only" for="cemail">Email</label>
-                        <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" aria-required="true">
-                    </div>
-                    <div class="form-group col-12">
-                        <label class="sr-only" for="cmessage">Your message</label>
-                        <textarea class="form-control" id="cmessage" name="message" placeholder="Message" rows="10" required="" aria-required="true"></textarea>
-                    </div>
-                    <div class="form-group col-12">
-                        <button type="submit" class="btn btn-block btn-primary py-2">Send</button>
-                    </div>
-                </div><!--//form-row-->
-            </form>
+
+            @Html.Partial("ContactForm")
 
         </div><!--//row-->
     </div><!--//container-->
 </section><!--//section-->
 
 @section scripts {
-    <!--Page Specific JS - Contact -->
+    <!-- Page Specific JS - Contact -->
     @Scripts.Render("~/bundles/contact")
 }

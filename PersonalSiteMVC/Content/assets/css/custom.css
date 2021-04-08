@@ -50,6 +50,7 @@ header .top-bar.theme-bg-primary-darken {
 
 .social-list a {
     padding-top: 6px;
+    border-bottom: none;
 }
 
 /* navigation links*/

@@ -69,10 +69,9 @@
         </footer>
         <!-- Javascript -->
         @Scripts.Render("~/bundles/plugins")
+        @RenderSection("scripts", false)
         <!-- Custom JS -->
         @Scripts.Render("~/bundles/main")
-
-        @RenderSection("scripts", false)
 </body>
 </html>
 

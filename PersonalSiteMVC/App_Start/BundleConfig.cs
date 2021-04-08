@@ -19,6 +19,7 @@ namespace PersonalSiteMVC
                         "~/Content/assets/js/main.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/contact").Include(
+                        "~/Scripts/jquery.unobtrusive-ajax.min.js",
                         "~/Content/assets/plugins/jquery-validation/jquery.validate.min.js",
                         "~/Content/assets/js/form.js"));
 
