@@ -49,7 +49,7 @@ namespace PersonalSiteMVC.Controllers
                              $"Message:<br /><br />" +
                              $"{obj.Message}";
 
-            MailMessage mail = new MailMessage($"admin@michaeljaggers.net", "michael.jaggers@gmail.com", "New contact form submission.", message);
+            MailMessage mail = new MailMessage($"admin@michaeljaggers.net", "michael.jaggers@outlook.com", "New contact form submission.", message);
 
             mail.IsBodyHtml = true;
             mail.ReplyToList.Add(obj.Email);
