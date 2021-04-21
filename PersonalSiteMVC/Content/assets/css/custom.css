@@ -184,6 +184,16 @@ a.logo-link,
     color: #AAA;
 }
 
+/* links.html */
+.links-section .skills-cat {
+    font-size: 1.5rem;
+}
+
+.links-section .comrade-link {
+    border: none;
+    font-size: 18px;
+}
+
 /* footer */
 .footer {
     background-color: #525E90;
