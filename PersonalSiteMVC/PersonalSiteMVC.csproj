@@ -4510,6 +4510,7 @@
     <Content Include="Views\Home\Resume.cshtml" />
     <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Home\ContactForm.cshtml" />
+    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
