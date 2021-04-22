@@ -189,6 +189,10 @@ a.logo-link,
     min-height: 600px;
 }
 
+.links-section .skills-block {
+    margin-bottom: 80px;
+}
+
 .links-section .skills-cat {
     font-size: 1.5rem;
 }
