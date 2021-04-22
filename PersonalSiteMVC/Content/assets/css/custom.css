@@ -185,8 +185,20 @@ a.logo-link,
 }
 
 /* links.html */
+.links-section {
+    min-height: 600px;
+}
+
 .links-section .skills-cat {
     font-size: 1.5rem;
+}
+
+.links-section .comrade-photo {
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
 }
 
 .links-section .comrade-link {
