@@ -64,14 +64,13 @@ namespace PersonalSiteMVC.Controllers
             }
             catch (Exception ex)
             {
-                ViewBag.Error = $"<div class=\"alert alert-danger\" role=\"alert\">Your message cannot be sent at this time.<br />" +
-                                $"Error: {ex.Message}</div>";
+                ViewBag.Error = $"<div class=\"alert alert-danger text-center\" role=\"alert\">Your message could not be sent at this time.</div>";
 
                 return PartialView("ContactForm", obj);
             }
 
             ModelState.Clear();
-            ViewBag.Success = $"<div class=\"alert alert-success\" role=\"alert\">Message sent.</div>";
+            ViewBag.Success = $"<div class=\"alert alert-success text-center\" role=\"alert\">Message sent.</div>";
             return PartialView("ContactForm");
         }
 
