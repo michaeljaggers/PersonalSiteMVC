@@ -4143,6 +4143,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="fonts\" />
+    <Folder Include="_Archive\assets\resume\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\assets\fontawesome\less\_animated.less" />
