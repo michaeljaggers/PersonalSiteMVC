@@ -2113,6 +2113,7 @@
     <Content Include="Content\assets\plugins\lightbox\ekko-lightbox.js" />
     <Content Include="Content\assets\plugins\lightbox\ekko-lightbox.min.js" />
     <Content Include="Content\assets\plugins\popper.min.js" />
+    <Content Include="Content\assets\shortcut_icon.png" />
     <Content Include="Content\favicon.ico" />
     <Content Include="Content\scss\bootstrap\scss\bootstrap-grid.css" />
     <Content Include="Content\scss\bootstrap\scss\bootstrap-reboot.css" />
@@ -4326,6 +4327,7 @@
     <Content Include="Content\scss\theme\_talks.scss" />
     <Content Include="Content\scss\theme\styles.scss" />
     <Content Include="Content\scss\theme.scss" />
+    <Content Include="Content\files\William_Jaggers_Resume.pdf" />
     <None Include="packages.config" />
     <Content Include="_Archive\assets\fontawesome\less\brands.less" />
     <Content Include="_Archive\assets\fontawesome\less\fontawesome.less" />
