@@ -4328,6 +4328,8 @@
     <Content Include="Content\scss\theme\styles.scss" />
     <Content Include="Content\scss\theme.scss" />
     <Content Include="Content\files\William_Jaggers_Resume.pdf" />
+    <Content Include="Configs\connections.config" />
+    <Content Include="Configs\AppSecretKeys.config" />
     <None Include="packages.config" />
     <Content Include="_Archive\assets\fontawesome\less\brands.less" />
     <Content Include="_Archive\assets\fontawesome\less\fontawesome.less" />

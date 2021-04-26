@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Net;
 using System.Net.Mail;
+using System.Configuration;
 
 namespace PersonalSiteMVC.Controllers
 {
@@ -49,20 +50,28 @@ namespace PersonalSiteMVC.Controllers
                              $"Message:<br /><br />" +
                              $"{obj.Message}";
 
-            MailMessage mail = new MailMessage($"admin@michaeljaggers.net", "michael.jaggers@outlook.com", "New contact form submission.", message);
+            MailMessage mail = new MailMessage(
+                ConfigurationManager.AppSettings["EmailUser"].ToString(),
+                ConfigurationManager.AppSettings["EmailTo"].ToString(),
+                "New contact form submission.",
+                message
+            );
 
             mail.IsBodyHtml = true;
             mail.ReplyToList.Add(obj.Email);
 
-            SmtpClient client = new SmtpClient("mail.michaeljaggers.net");
+            SmtpClient client = new SmtpClient(ConfigurationManager.AppSettings["EmailClient"].ToString());
 
-            client.Credentials = new NetworkCredential("admin@michaeljaggers.net", "****");
+            client.Credentials = new NetworkCredential(
+                ConfigurationManager.AppSettings["EmailUser"].ToString(),
+                ConfigurationManager.AppSettings["EmailPass"].ToString()
+            );
 
             try
             {
                 client.Send(mail);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 ViewBag.Error = $"<div class=\"alert alert-danger text-center\" role=\"alert\">Your message could not be sent at this time.</div>";
 
