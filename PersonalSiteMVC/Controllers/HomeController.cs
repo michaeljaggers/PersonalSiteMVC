@@ -42,7 +42,7 @@ namespace PersonalSiteMVC.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View(obj);
+                return PartialView("ContactForm", obj);
             }
 
             string message = $"Sender Name: {obj.Name}<br />" +
@@ -81,6 +81,13 @@ namespace PersonalSiteMVC.Controllers
             ModelState.Clear();
             ViewBag.Success = $"<div class=\"alert alert-success text-center\" role=\"alert\">Message sent.</div>";
             return PartialView("ContactForm");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult AjaxSubmit(ContactViewModel obj)
+        {
+            return PartialView();
         }
 
         [HttpGet]

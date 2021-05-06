@@ -40,4 +40,16 @@
 @section scripts {
     <!-- Page Specific JS - Contact -->
     @Scripts.Render("~/bundles/contact")
+
+    @*<script>
+        $(document).ready(function () {
+            function submitSuccess() {
+                $("#MessageContent").html("<div class='alert alert-success text-center' role='alert'>Message sent.</div>");
+            }
+
+            function submitError() {
+                $("#MessageContent").html("<div class='alert alert-danger text-center' role='alert'>Your message could not be sent at this time.</div>");
+            }
+        })
+    </script>*@
 }
