@@ -1832,6 +1832,8 @@
     <Content Include="Content\assets\images\projects\project-slide-2.png" />
     <Content Include="Content\assets\images\projects\project-slide-3.jpg" />
     <Content Include="Content\assets\images\projects\project-slide-3.png" />
+    <Content Include="Content\assets\images\projects\ReactWishlist.jpg" />
+    <Content Include="Content\assets\images\projects\StoreFront.jpg" />
     <Content Include="Content\assets\images\webdev-icons\ajax.svg" />
     <Content Include="Content\assets\images\webdev-icons\angular.svg" />
     <Content Include="Content\assets\images\webdev-icons\atom.svg" />
@@ -4328,7 +4330,6 @@
     <Content Include="Content\scss\theme\styles.scss" />
     <Content Include="Content\scss\theme.scss" />
     <Content Include="Content\files\William_Jaggers_Resume.pdf" />
-    <Content Include="Configs\connections.config" />
     <Content Include="Configs\AppSecretKeys.config" />
     <None Include="packages.config" />
     <Content Include="_Archive\assets\fontawesome\less\brands.less" />
