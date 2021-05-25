@@ -1805,11 +1805,13 @@
     <Content Include="Content\assets\images\logos\logo-7-inverse.svg" />
     <Content Include="Content\assets\images\logos\logo-8-inverse.svg" />
     <Content Include="Content\assets\images\logos\logo-9-inverse.svg" />
+    <Content Include="Content\assets\images\logos\personal-project.png" />
     <Content Include="Content\assets\images\logos\vinsolutions.png" />
     <Content Include="Content\assets\images\other-skills-icon.svg" />
     <Content Include="Content\assets\images\profile.jpg" />
     <Content Include="Content\assets\images\projects\DungeonApplication.jpg" />
     <Content Include="Content\assets\images\projects\Fed1StudioProject.jpg" />
+    <Content Include="Content\assets\images\projects\ModernPinboard.jpg" />
     <Content Include="Content\assets\images\projects\project-2-thumb.jpg" />
     <Content Include="Content\assets\images\projects\project-3-thumb.jpg" />
     <Content Include="Content\assets\images\projects\project-4-thumb.jpg" />
