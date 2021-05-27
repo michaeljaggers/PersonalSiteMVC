@@ -1,2 +1,2 @@
 # PersonalSiteMVC
-Portfolio website written in .NET MVC for Centriq Training
+Portfolio website written in .NET MVC
