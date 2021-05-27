@@ -117,6 +117,9 @@ a.logo-link,
 }
 
 /* project cards */
+.card-img-overlay {
+    border-radius: 0;
+}
 
 .project-cards .card-img-overlay.overlay-content {
     background: rgba(40, 40, 40, 0.85);
