@@ -226,6 +226,12 @@ a.logo-link,
     font-size: 18px;
 }
 
+/* not-found */
+.not-found {
+    min-height: calc(100vh - 100px);
+    position: relative;
+}
+
 /* footer */
 .footer {
     background-color: #525E90;
