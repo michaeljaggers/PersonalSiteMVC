@@ -1787,6 +1787,7 @@
     <Content Include="Content\assets\images\clients\Micah-Lay.jpg" />
     <Content Include="Content\assets\images\clients\Tim-Petit.jpg" />
     <Content Include="Content\assets\images\comrades\Brandon_Smith.jpg" />
+    <Content Include="Content\assets\images\comrades\James_Donnici.jpg" />
     <Content Include="Content\assets\images\comrades\Tyler_Rowe.jpg" />
     <Content Include="Content\assets\images\frontend-icon.svg" />
     <Content Include="Content\assets\images\logos\centriq-white.png" />
@@ -1812,6 +1813,7 @@
     <Content Include="Content\assets\images\profile.jpg" />
     <Content Include="Content\assets\images\projects\DungeonApplication.jpg" />
     <Content Include="Content\assets\images\projects\Fed1StudioProject.jpg" />
+    <Content Include="Content\assets\images\projects\JobBoard.jpg" />
     <Content Include="Content\assets\images\projects\ModernPinboard.jpg" />
     <Content Include="Content\assets\images\projects\project-2-thumb.jpg" />
     <Content Include="Content\assets\images\projects\project-3-thumb.jpg" />
