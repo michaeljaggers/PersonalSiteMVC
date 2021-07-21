@@ -1838,6 +1838,7 @@
     <Content Include="Content\assets\images\projects\project-slide-3.jpg" />
     <Content Include="Content\assets\images\projects\project-slide-3.png" />
     <Content Include="Content\assets\images\projects\ReactWishlist.jpg" />
+    <Content Include="Content\assets\images\projects\SATProject.jpg" />
     <Content Include="Content\assets\images\projects\StoreFront.jpg" />
     <Content Include="Content\assets\images\webdev-icons\ajax.svg" />
     <Content Include="Content\assets\images\webdev-icons\angular.svg" />
