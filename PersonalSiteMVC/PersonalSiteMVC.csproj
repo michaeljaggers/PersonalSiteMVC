@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PersonalSiteMVC</RootNamespace>
     <AssemblyName>PersonalSiteMVC</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,16 +49,14 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
@@ -102,6 +101,7 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -1813,6 +1813,7 @@
     <Content Include="Content\assets\images\profile.jpg" />
     <Content Include="Content\assets\images\projects\DungeonApplication.jpg" />
     <Content Include="Content\assets\images\projects\Fed1StudioProject.jpg" />
+    <Content Include="Content\assets\images\projects\Insurance-React-Component.png" />
     <Content Include="Content\assets\images\projects\JobBoard.jpg" />
     <Content Include="Content\assets\images\projects\ModernPinboard.jpg" />
     <Content Include="Content\assets\images\projects\project-2-thumb.jpg" />
@@ -4523,8 +4524,9 @@
     <Content Include="Views\Home\Resume.cshtml" />
     <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Home\ContactForm.cshtml" />
-    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
     <Content Include="Views\Errors\NotFound.cshtml" />
+    <None Include="Properties\PublishProfiles\Portfolio Site - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\wmjaggers-001-site1 - FTP.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
