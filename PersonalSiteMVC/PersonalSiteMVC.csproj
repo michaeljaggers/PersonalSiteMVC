@@ -1808,6 +1808,7 @@
     <Content Include="Content\assets\images\logos\logo-8-inverse.svg" />
     <Content Include="Content\assets\images\logos\logo-9-inverse.svg" />
     <Content Include="Content\assets\images\logos\personal-project.png" />
+    <Content Include="Content\assets\images\logos\quest-analytics.png" />
     <Content Include="Content\assets\images\logos\vinsolutions.png" />
     <Content Include="Content\assets\images\other-skills-icon.svg" />
     <Content Include="Content\assets\images\profile.jpg" />
@@ -4519,6 +4520,7 @@
     <Content Include="Content\scss\theme.scss" />
     <Content Include="Content\files\William_Jaggers_Resume.pdf" />
     <Content Include="Configs\AppSecretKeys.config" />
+    <Content Include="Content\files\WMJaggers-Resume.docx" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="Views\Home\Resume.cshtml" />
