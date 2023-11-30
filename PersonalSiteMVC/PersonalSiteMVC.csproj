@@ -4520,7 +4520,7 @@
     <Content Include="Content\scss\theme.scss" />
     <Content Include="Content\files\William_Jaggers_Resume.pdf" />
     <Content Include="Configs\AppSecretKeys.config" />
-    <Content Include="Content\files\WMJaggers-Resume.docx" />
+    <Content Include="Content\files\WMichaelJaggers-Resume.docx" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="Views\Home\Resume.cshtml" />
