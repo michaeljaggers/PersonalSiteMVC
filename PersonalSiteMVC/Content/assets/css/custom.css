@@ -98,6 +98,11 @@ a.link-on-bg:hover {
     border-bottom-color: #FFF;
 }
 
+/* profile photo */
+.round {
+    border-radius: 125px;
+}
+
 /* index skills section */
 
 .skills-cat {
