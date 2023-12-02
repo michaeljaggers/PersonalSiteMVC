@@ -1808,7 +1808,7 @@
     <Content Include="Content\assets\images\logos\logo-8-inverse.svg" />
     <Content Include="Content\assets\images\logos\logo-9-inverse.svg" />
     <Content Include="Content\assets\images\logos\personal-project.png" />
-    <Content Include="Content\assets\images\logos\questanalytics.png" />
+    <Content Include="Content\assets\images\logos\quest-analytics.png" />
     <Content Include="Content\assets\images\logos\vinsolutions.png" />
     <Content Include="Content\assets\images\other-skills-icon.svg" />
     <Content Include="Content\assets\images\profile.jpg" />
