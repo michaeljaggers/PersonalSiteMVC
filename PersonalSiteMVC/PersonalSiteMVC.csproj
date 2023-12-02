@@ -1808,10 +1808,11 @@
     <Content Include="Content\assets\images\logos\logo-8-inverse.svg" />
     <Content Include="Content\assets\images\logos\logo-9-inverse.svg" />
     <Content Include="Content\assets\images\logos\personal-project.png" />
-    <Content Include="Content\assets\images\logos\quest-analytics.png" />
+    <Content Include="Content\assets\images\logos\questanalytics.png" />
     <Content Include="Content\assets\images\logos\vinsolutions.png" />
     <Content Include="Content\assets\images\other-skills-icon.svg" />
     <Content Include="Content\assets\images\profile.jpg" />
+    <Content Include="Content\assets\images\profile2.jpg" />
     <Content Include="Content\assets\images\projects\DungeonApplication.jpg" />
     <Content Include="Content\assets\images\projects\Fed1StudioProject.jpg" />
     <Content Include="Content\assets\images\projects\Insurance-React-Component.png" />
@@ -4528,7 +4529,6 @@
     <Content Include="Views\Home\ContactForm.cshtml" />
     <Content Include="Views\Errors\NotFound.cshtml" />
     <None Include="Properties\PublishProfiles\Portfolio Site - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\wmjaggers-001-site1 - FTP.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
